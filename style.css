@@ -143,9 +143,10 @@ li .type-text {
 }
 
 /* Edit Task */
-li .type-text{
-  display:none
+li input[type=text] {
+  display:none;
 }
+
 
 .editMode .type-text {
   
@@ -156,3 +157,4 @@ li .type-text{
 .editMode label {
   display:none;
 }
+
