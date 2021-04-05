@@ -107,11 +107,11 @@ li {
   justify-content: space-between;
   align-items: center;
 }
-li  * {
+li * {
   vertical-align: middle;
 }
 
-li  input {
+li input {
   margin: 0 10px;
 }
 li label {
@@ -120,7 +120,7 @@ li label {
   font-size: 18px;
   width: 226px;
 }
-li  input[type='text'] {
+li input[type='text'] {
   width: 226px;
 }
 .delete img {
@@ -139,15 +139,15 @@ li  input[type='text'] {
 }
 
 /* Edit Task */
-ul li input {
+li input {
   display: none;
 }
 
-ul li.editMode input {
+.editMode input {
   display: inline-block;
   width: 224px;
 }
 
-ul li.editMode label {
+ .editMode label {
   display: none;
 }
