@@ -5,6 +5,7 @@ body {
   font-family: "Lato", sans-serif;
 
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
@@ -12,11 +13,13 @@ body {
   text-align: right;
 
 }
+
 .header img {
   width: 100%;
   display: block;
 
 }
+
 .header .additional-info {
   font-family: "fantasy", cursive;
 
@@ -42,6 +45,7 @@ p {
   margin: 0 auto 0;
 
 }
+
 .task {
   width: 56%;
   display: inline-block;
@@ -69,26 +73,27 @@ button {
 
 }
 
+.button,
 button {
   background: none;
   border: 0px;
   color: #888;
   font-size: 15px;
   width: 60px;
-  font-family: Lato, sans-serif;
+  font-family: "Lato", sans-serif;
   cursor: pointer;
 
 }
 
-button:hover {
+.button:hover {
   color: #3a3a3a;
 
 }
 
 /* Heading */
 
-h3,
-label {
+.article,
+.label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -96,6 +101,7 @@ label {
   padding: 30px 0 10px;
   margin: 0;
   text-transform: uppercase;
+   margin: 0 0 20px;
 
 }
 
@@ -118,12 +124,7 @@ input:focus {
 
 }
 
-/* New Task */
-h3 {
-  display: block;
-  margin: 0 0 20px;
 
-}
 
 #add-task__input {
   width: 415px;
@@ -138,13 +139,11 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+   vertical-align: middle;
 
 }
 
-li * {
-  vertical-align: middle;
 
-}
 
 li input {
   margin: 0 10px;
