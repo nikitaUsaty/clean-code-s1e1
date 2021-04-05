@@ -12,11 +12,15 @@ body {
 }
 .aaa img {
   width: 100%;
+  display: block;
 }
 .aaa .more_inf {
   font-family: fantasy, cursive;
 }
-
+p{
+  padding: 0;
+  margin: 0;
+}
 @media (max-width: 768px) {
   .aaa {
     text-align: center;
@@ -120,7 +124,7 @@ li label {
   font-size: 18px;
   width: 226px;
 }
-li input[type='text'] {
+li .type-text {
   width: 226px;
 }
 .delete img {
@@ -139,15 +143,16 @@ li input[type='text'] {
 }
 
 /* Edit Task */
-li input {
-  display: none;
+li .type-text{
+  display:none
 }
 
-.editMode input {
-  display: inline-block;
-  width: 224px;
+.editMode .type-text {
+  
+  display:inline-block;
+  width:324px;
 }
 
- .editMode label {
-  display: none;
+.editMode label {
+  display:none;
 }
