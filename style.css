@@ -93,7 +93,7 @@ input:focus {
 }
 
 /* New Task */
-label {
+h3 {
   display: block;
   margin: 0 0 20px;
 }
@@ -142,29 +142,6 @@ li .type-text {
   color: #888;
 }
 
-
-/* Completed */
-/* #completed-tasks label {
-  text-decoration: line-through;
-  color: #888;
-} */
-
-/* Edit Task */
-/* ul li input[type=text] {
-  display:none;
-}
-
-
-.editMode .type-text {
-  
-  display:inline-block;
-  width:324px;
-}
-
-.editMode label {
-  display:none;
-} */
-
 /* Completed */
 ul#completed-tasks label {
   text-decoration: line-through;
@@ -172,15 +149,15 @@ ul#completed-tasks label {
 }
 
 /* Edit Task */
-ul li input[type=text] {
+li input[type=text] {
   display:none;
 }
 
-ul li.edit-mode input[type=text] {
+.edit-mode input[type=text] {
   display:inline-block;
   width:224px;
 }
 
-ul li.edit-mode label {
+.edit-mode label {
   display:none;
 }
